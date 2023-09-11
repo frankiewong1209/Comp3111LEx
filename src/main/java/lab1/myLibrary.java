@@ -6,7 +6,7 @@ public class myLibrary {
             return Base * Exponent;
 
         else
-            return 2 * Power(Base,Exponent-1);
+            return Base * Power(Base,Exponent-1);
 
     }
     public static int factorial(int n){
